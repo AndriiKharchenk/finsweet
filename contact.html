@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <a class="header__logo" href="#">
+            <img class="header__logo-img" src="../images/logo.svg" alt="logo" />
+          </a>
+          <button class="burger" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="header__nav">
+            <nav class="header__menu">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="/">Home</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="about.html">About us</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="features.html">Features</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link " href="blog-main.html">Blog</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="header__btn" href="contact.html">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact">
+        <div class="container-small">
+          <h2 class="title contact__title">Contact Us</h2>
+          <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          <form class="contact__form">
+            <div class="contact__first-pair">
+              <div class="contact__name">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required />
+              </div>
+              <div class="contact__email">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your Email" required />
+              </div>
+            </div>
+            <div class="contact__second-pair">
+              <div class="contact__subject">
+                <label for="subject">Subject</label>
+                <select name="subject" id="subject">
+                  <option value="">Provide context</option>
+                  <option value="support">Support</option>
+                  <option value="sales">Sales</option>
+                </select>
+              </div>
+              <div class="contact__subject">
+                <label for="subject">Subject</label>
+                <select name="subject" id="subject">
+                  <option value="">Select Subjectt</option>
+                  <option value="support">Support</option>
+                  <option value="sales">Sales</option>
+                </select>
+              </div>
+            </div>
+            <div class="contact__textarea">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Write your  question here"></textarea>
+              </div>
+              <button class="contact-btn" type="submit">Send Messege</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <a class="footer__logo-link" href="#">
+              <img class="footer__logo-img" src="images/logo.svg" alt="logo" />
+            </a>
+            <p class="footer__logo-text">We are always open to discuss your project and improve your online presence.</p>
+          </div>
+          <div class="footer__social">
+            <h2 class="title footer__social-title">Lets Talk!</h2>
+            <p class="footer__social-text">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/footer-facebook.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/footer-twiter.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/footer-instagram.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/footer-linkedin.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__email">
+              <h4 class="footer__email-text">Email me at</h4>
+              <a class="footer__email-link" href="mailto:contact@website.com">contact@website.com</a>
+            </div>
+            <div class="footer__phone">
+              <h4 class="footer__phone-text">Call us</h4>
+              <a class="footer-phone-link" href="tel:0927627728525">0927 6277 28525</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
