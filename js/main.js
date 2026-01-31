@@ -49,7 +49,7 @@ filterBtns.forEach(btn => {
 
 const burger = document.querySelector('.burger');
 const menu = document.querySelector('.header__menu');
-const body = document.querySelector('body')
+
 
 burger.addEventListener('click', () => { 
   burger.classList.toggle('burger--open');
