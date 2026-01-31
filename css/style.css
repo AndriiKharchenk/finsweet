@@ -1010,6 +1010,8 @@ body {
 .plans__card:hover {
   background-image: url(../images/pricing-bg.svg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   object-fit: cover;
   color: #fff;
 }

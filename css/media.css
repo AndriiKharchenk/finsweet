@@ -98,6 +98,11 @@
     text-align: center;
   }
 
+  .plans__cards:hover {
+ 
+  }
+  
+
   .plans__list {
     margin: 0 auto;
     padding-bottom: 80px;
