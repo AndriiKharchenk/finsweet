@@ -139,6 +139,7 @@ body {
   background-color: #1c1e53;
   height: calc(100vh - 86px);
   display: flex;
+  align-items: center;
 }
 
 .hero__inner {
@@ -1097,6 +1098,8 @@ body {
 .features__hero {
   background-color: #1c1e53;
   height: calc(100vh - 86px);
+  display: flex;
+  align-items: center;
 }
 
 .features__hero-inner {

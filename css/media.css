@@ -504,4 +504,10 @@
   .portfolio__filter-btn {
     white-space: nowrap;
   }
+
+   .hero__buttons-two::after {
+    display: none;
+  }
 }
+
+
