@@ -24,23 +24,64 @@
 @media (max-width: 1000px) {
   .hero__inner {
     flex-direction: column;
+    gap: 0;
   }
 
   .hero__content {
     padding-top: 8%;
-    max-width: 640px;
+    max-width: 540px;
+  }
+
+  .hero__content-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .hero__buttons {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .hero__buttons-one {
+    padding: 10px 26px;
+    font-size: 14px;
+  }
+
+  .hero__buttons-two::after {
+    top: 4px;
+    right: -36px;
+  }
+
+  .hero__buttons-two {
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .hero__content-title {
+    font-size: 38px;
+    text-align: center;
   }
 
   .hero__foto {
     padding-top: 8%;
-  }
-
-  .hero__foto-img {
-    width: 477px;
+    max-width: 370px;
   }
 
   .features__content-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .features__hero-inner {
+    gap: 1px;
+  }
+
+  .features__hero-title {
+    font-size: 38px;
+  }
+
+  .features__hero-image {
+    max-width: 370px;
   }
 
   .faq__inner {
@@ -88,20 +129,21 @@
   }
 
   .features__hero-content {
-    max-width: 600px;
+    max-width: 540px;
     text-align: center;
   }
+
+  .features__hero-btn {
+    padding: 10px 26px;
+    font-size: 14px;
+  }
+
 
   .plans__cards {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
-  .plans__cards:hover {
- 
-  }
-  
 
   .plans__list {
     margin: 0 auto;
@@ -338,9 +380,6 @@
     padding: 60px 0;
   }
 
-  .features__hero-inner {
-    gap: 150px;
-  }
 
   .features__benefits {
     flex-direction: column;
@@ -505,9 +544,7 @@
     white-space: nowrap;
   }
 
-   .hero__buttons-two::after {
+  .hero__buttons-two::after {
     display: none;
   }
 }
-
-
