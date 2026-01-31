@@ -150,7 +150,7 @@ body {
 
 .hero__content {
   align-items: center;
-  padding-top: 18%;
+  padding-top: 4%;
   max-width: 577px;
 }
 
@@ -209,7 +209,7 @@ body {
 }
 
 .hero__foto {
-  padding-top: 18%;
+  padding-top: 4%;
 }
 
 .work {
@@ -1106,7 +1106,7 @@ body {
 
 .features__hero-content {
   align-items: center;
-  padding-top: 18%;
+  padding-top: 4%;
   max-width: 490px;
 }
 
@@ -1133,7 +1133,7 @@ body {
 }
 
 .features__hero-image {
-  padding-top: 18%;
+  padding-top: 4%;
 }
 
 .features__benefits {
